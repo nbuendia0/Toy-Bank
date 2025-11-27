@@ -2,8 +2,6 @@
 
 A small online banking app built in Node.js to demonstrate **Cross-Site Request Forgery (CSRF)** vulnerabilities and protections. The project includes a deliberately vulnerable server, a CSRF-protected server, and an attacker site with a fake prize page that performs an unauthorized money transfer when the victim is logged in.
 
-GitHub renders this README using its default UI font stack (e.g., `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`), which this layout is optimized for.
-
 ---
 
 ## Features
